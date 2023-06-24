@@ -1,50 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>headings</title>
-    <style>
-    @media(min-width:600px){
-        #foo{
-        color:orange;
-        text-align: center;
-        }
-        .left{
-        color:red;
-        text-align: left;
-        }
-        .right{
-        color:green;
-        text-align: right;
-        }
-        }
-      @media(max-width:599px){
-        #foo{
-        color:orange;
-        text-align: center;
-        }
-        .left{
-        color:red;
-        text-align: center;
-        }
-        .right{
-        color:green;
-        text-align: center;
-        }
-        }
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="topnav.css">
+  <link rel="stylesheet" href="stylesheet.css">
 
+ 
 
-    </style>
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body>
-<h1 id="foo">Styling using classes and ids 1</h1>
-<h1 class="left">Heading 1</h1>
-<h2 class="right">Heading 2</h2>
-<h3 class="left">Heading 3</h3>
-<h4 class="right">Heading 4</h4>
-<h5 class="left">Heading 5</h5>
-<h6 class="right">Heading 6</h6>
 
+<body>
+
+
+  <nav class="shift">
+
+    <div>
+      <ul>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Scholar</a></li>
+        <li><a href="#">Advanced</a></li>
+        <li><a href="#">about</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<div class="web_search">
+  <div><img id="logo" src="hawquest.png"></div>
+  <div id="tagline1">Discover Your World, Your Way.</div>
+  <div id="tagline2"> Your Gateway to Google, Simplified and Stylish.</div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+    <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+  </div>
+
+</div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

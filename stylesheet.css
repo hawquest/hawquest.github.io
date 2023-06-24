@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .web_search {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    margin: 0px 22%;
+    height: calc(100vh - 100px); /* Subtract navbar height */
+  }
+  .web_search .input-group {
+      height: 48px;
+    margin-bottom: 10px;
+  }
+  .web_search .input-group-text {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    opacity: 0.75; /* Set the opacity value */
+  }
+  #logo{
+      width: 250px;
+  }
+  #tagline1{
+      color: #ffffff;
+      margin-top: 20px;
+      font-family: 'poppins';
+      font-weight: 500;
+      
+  }
+  #tagline2{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'poppins';
+    font-weight: 500;
+    
+}
